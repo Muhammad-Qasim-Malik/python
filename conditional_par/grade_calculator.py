@@ -4,6 +4,7 @@ percentage = round(obtained_marks / (total_marks / 100),2)
 print(percentage)
 if percentage > 100:
     print("Please Enter valid Obtained Marks.")
+    exit()
 elif percentage >= 90:
     print("You've passed the exams with A Grade")
 elif percentage >= 80:
